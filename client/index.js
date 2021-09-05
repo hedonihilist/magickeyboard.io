@@ -216,7 +216,7 @@ function getImagePath (key) {
   if (key === '/') key = 'slash'
   if (key === '\\') key = 'backslash'
 
-  return '/img/' + key + '.png'
+  return 'img/' + key + '.png'
 }
 
 function playSound (name) {
